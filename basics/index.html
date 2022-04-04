@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Right click > Inspect > Console
+    <script>
+        function add7(x) {
+            return x + 7
+        };
+
+        console.log(add7(4));
+
+        function multiply(x, y) {
+            return x * y
+        };
+
+        console.log(multiply(8,52))
+
+        function capitalize(string) {
+            let first = string[0].toUpperCase()
+            let rest = string.slice(1).toLowerCase()
+            return first + rest
+        };
+
+        console.log(capitalize("happy Birthday"))
+
+        function lastLetter(string) {
+            let last = string.slice(-1)
+            return last
+        }
+
+        console.log(lastLetter("abcd"))
+    </script>
+</body>
+</html>
